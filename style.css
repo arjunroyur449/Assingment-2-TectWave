@@ -149,12 +149,16 @@ ul {
 .podcast_p50_120 {
   padding-top: 50px;
   padding-bottom: 120px;
+  background-color: #1a0b2e;
 }
 .podcast {
   max-width: 800px;
   margin: auto;
   line-height: 1.8;
   padding-bottom: 80px;
+}
+.podcast_item i {
+  font-size: 35px;
 }
 .mt-30 {
   margin-top: 30px;

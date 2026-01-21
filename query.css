@@ -39,8 +39,8 @@
   }
   /* .podcast section */
   .podcast_p50_120 {
-    padding-top: 30px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .podcast {
     max-width: 400px;
@@ -49,9 +49,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding-top: 40px;
   }
-  .podcast_p50_120 {
-    padding: 40px 0;
-  }
+
   .podcast_group {
     padding-top: 40px;
     row-gap: 40px;
@@ -71,9 +69,7 @@
   .hero_center {
     padding: 40px 0;
   }
-  .podcast_p50_120 {
-    padding-top: 0;
-  }
+
   /* Choose section */
   .Choose_group {
     grid-template-columns: repeat(1, 1fr);
