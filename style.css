@@ -37,7 +37,10 @@ ul {
   color: #fff;
   border-radius: 10px;
   border: 0;
+  background-color: transparent;
+  font-weight: 600;
 }
+
 .humbergur_icon {
   display: none;
 }
@@ -75,11 +78,18 @@ ul {
   display: block;
   margin-right: 15px;
 }
-.Subscribe_btn,
-.Spotify {
-  background: linear-gradient(to right top, #f8c651 0%, #b303e2 100%);
-}
 
+.Spotify,
+.Subscribe_btn {
+  background: linear-gradient(to right top, #f8c651 0%, #b303e2 100%);
+  transition: all 3s ease-in;
+}
+.Subscribe_btn:hover.Subscribe_btn i {
+  padding-left: 5px;
+}
+.Subscribe_btn:hover {
+  background: linear-gradient(to left top, #f8c651 0%, #b303e2 100%);
+}
 /* hero section */
 
 .hero {
@@ -126,6 +136,7 @@ ul {
   color: #00ff88;
   border: 1px solid;
   margin-left: 15px;
+  background-color: transparent;
 }
 .hero_center_p {
   margin: 24px 0;
