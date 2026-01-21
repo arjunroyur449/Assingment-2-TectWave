@@ -1,0 +1,192 @@
+@media screen and (max-width: 576px) {
+  .header,
+  .hero_center,
+  .middle_text {
+    max-width: 400px;
+  }
+
+  .humbergur_icon {
+    display: block;
+  }
+  .navber,
+  .Subscribe_btn {
+    display: none;
+  }
+  .img_icon {
+    width: 137px;
+    height: auto;
+  }
+  .manu_item {
+    margin: 0;
+  }
+  .header_top {
+    padding: 20px 0;
+  }
+  /* hero Section */
+  .MicroPhone_box {
+    width: 200px;
+    height: 200px;
+  }
+  .tech_header {
+    font-size: 40px;
+  }
+  .MicroPhone_box i {
+    font-size: 80px;
+  }
+  .new_btn {
+    top: 5px;
+    right: 1px;
+  }
+  /* .podcast section */
+  .podcast_p50_120 {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+  .podcast {
+    max-width: 400px;
+  }
+  .podcast_group {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 40px;
+  }
+  .podcast_p50_120 {
+    padding: 40px 0;
+  }
+  .podcast_group {
+    padding-top: 40px;
+    row-gap: 40px;
+  }
+  .podcast {
+    padding-bottom: 40px;
+  }
+  .same_title {
+    font-size: 32px;
+  }
+  .podcast_item h1 {
+    font-size: 40px;
+  }
+  .mt-30 {
+    margin-top: 20px;
+  }
+  .hero_center {
+    padding: 40px 0;
+  }
+  .podcast_p50_120 {
+    padding-top: 0;
+  }
+  /* Choose section */
+  .Choose_group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .one {
+    grid-column: 1;
+  }
+  .two {
+    grid-column: 1;
+  }
+
+  .three {
+    grid-column: 1;
+  }
+  .four {
+    grid-column: 1;
+  }
+  .Choose {
+    padding: 40px 0;
+  }
+  /* feature section */
+
+  .feature_group {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px 0;
+  }
+
+  .profile {
+    margin: 40px 0;
+    text-align: center;
+  }
+  .profile_row {
+    flex-direction: column;
+    column-gap: 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .profile_col h3,
+  .icon_pro,
+  .m_16 {
+    text-align: center;
+  }
+
+  .footer_item a {
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header,
+  .hero_center,
+  .middle_text {
+    max-width: 800px;
+  }
+
+  .humbergur_icon {
+    display: none;
+  }
+  /* hero Section */
+  .MicroPhone_box {
+    width: 250px;
+    height: 250px;
+  }
+  .tech_header {
+    font-size: 60px;
+  }
+  .MicroPhone_box i {
+    font-size: 90px;
+  }
+  .new_btn {
+    top: 9px;
+    right: 12px;
+  }
+  /* .podcast section */
+  .podcast_p50_120 {
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+
+  .podcast_p50_120 {
+    padding: 50px 0;
+  }
+  .podcast_group {
+    padding-top: 50px;
+    row-gap: 50px;
+  }
+  .podcast {
+    padding-bottom: 50px;
+  }
+  .same_title {
+    font-size: 35px;
+  }
+  .podcast_item h1 {
+    font-size: 40px;
+  }
+  .hero_center {
+    padding: 60px 0;
+  }
+  .podcast_p50_120 {
+    padding-top: 0;
+  }
+  .Choose_group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Choose_item {
+    padding: 27px;
+  }
+  .feature_group {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .profile {
+    margin: 80px 0;
+  }
+}
