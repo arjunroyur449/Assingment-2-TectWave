@@ -279,6 +279,13 @@ ul {
   padding: 40px;
   border-radius: 40px;
 }
+.profile_row img {
+  transition: transform 2s ease-in;
+}
+.profile_row img:hover {
+  transform: scale(1.1);
+}
+
 .profile_col {
   margin-left: 25px;
   text-align: left;
