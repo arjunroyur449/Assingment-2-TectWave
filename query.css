@@ -87,7 +87,8 @@
   .four {
     grid-column: 1;
   }
-  .Choose {
+  .Choose,
+  .feature {
     padding: 40px 0;
   }
   /* feature section */
@@ -112,7 +113,10 @@
   .m_16 {
     text-align: center;
   }
-
+  .profile_col {
+    text-align: center;
+    margin-top: 10px;
+  }
   .footer_item a {
     margin-right: 30px;
     margin-bottom: 15px;
@@ -174,7 +178,8 @@
     padding-top: 0;
   }
   /* Choose section */
-  .Choose {
+  .Choose,
+  .feature {
     padding: 80px 0;
   }
   .Choose_group {

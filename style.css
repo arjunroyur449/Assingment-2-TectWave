@@ -223,6 +223,7 @@ ul {
 /* feature section */
 .feature {
   background-color: #1a0b2e;
+  padding: 120px 0;
 }
 .feature_group {
   display: grid;
@@ -231,6 +232,9 @@ ul {
   gap: 0 20px;
   margin-top: 40px;
 }
+.feature_item {
+  border-radius: 20px;
+}
 .feature_relative {
   background-image: url(./assets/Rectangle-1.png);
   background-size: cover;
@@ -238,6 +242,7 @@ ul {
   background-position: center;
   height: 214px;
   position: relative;
+  border-radius: 20px;
 }
 .feature_ab {
   position: absolute;
@@ -285,6 +290,7 @@ ul {
 .m_16 {
   margin: 16px 0;
 }
+
 .icon_pro {
   padding: 10px;
   height: 40px;
