@@ -49,10 +49,14 @@ ul {
 }
 
 /* Header Section */
-.section {
+
+.header_top_Section {
   background-color: #1a0b2e;
+  padding: 16px 0;
+}
+
+.section {
   width: 100%;
-  padding: 28px 0;
 }
 .header {
   display: flex;
@@ -73,7 +77,7 @@ ul {
 }
 .Subscribe_btn,
 .Spotify {
-  background: linear-gradient(to left bottom, #f8c651 0%, #b303e2 100%);
+  background: linear-gradient(to right top, #f8c651 0%, #b303e2 100%);
 }
 
 /* hero section */
