@@ -182,7 +182,10 @@ ul {
   text-transform: uppercase;
 }
 /* Choose section */
-
+.Choose {
+  background-color: #230e3d;
+  padding: 120px 0;
+}
 .Choose_group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -199,9 +202,6 @@ ul {
 .Choose_item h2 {
   font-size: 24px;
   font-weight: 700;
-}
-.Choose {
-  background-color: #230e3d;
 }
 .pt-40 {
   padding-top: 80px;

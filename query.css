@@ -173,6 +173,10 @@
   .podcast_p50_120 {
     padding-top: 0;
   }
+  /* Choose section */
+  .Choose {
+    padding: 80px 0;
+  }
   .Choose_group {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -185,5 +189,14 @@
   }
   .profile {
     margin: 80px 0;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .header,
+  .hero_center,
+  .middle_text {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
